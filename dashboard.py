@@ -271,7 +271,7 @@ for idx, label in [(30, "← Eğitim | Test →"), (36, "← Test | Tahmin →")
     if idx < len(ETIKET):
         fig.add_vline(x=ETIKET[idx], line_dash="dot", line_color="#F39200",
                       line_width=1.5)
-        fig.add_annotation(x=ETIKET[idx], y=0, text=label, showarrow=False,
+        fig.add_annotation(x=ETIKET[idx], text=label, showarrow=False,
                            font=dict(size=9, color="#F39200"), yref="paper",
                            yanchor="bottom", y=0.02)
 
